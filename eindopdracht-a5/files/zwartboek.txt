@@ -1,6 +1,0 @@
-      datum                team1                    team2 uitslag         scheidsrechter  overtredingen
- 24-12-2020  Reading Hockey Club           Waterloo Ducks     0-2  Godfrey van Alemannië             98
- 09-12-2020         Jaarsveld HC  HOC Gazellen-Combinatie     0-4                Zwijsen             96
- 06-12-2020         HC Spankeren              UHC Leveroy     8-4               Zijlmans             96
- 27-12-2020         UHC Sinderen      Reading Hockey Club     3-6                Paillet             94
- 22-12-2020       Waterloo Ducks                 UHC Eede     5-4  Godfrey van Alemannië             84
