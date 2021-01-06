@@ -4,10 +4,10 @@ from datetime import timedelta
 import lib_bamboo as bamboo
 import os
 
-os.system("cls") #Deze regel nog invullen! Hoe maak je het scherm leeg?
+os.system("cls")
 print("Working...")
 
-data = pd.read_excel("Hockey_Tweede_klasse_tussenstand.xlsx")
+data = pd.read_excel("../files/Hockey_Tweede_klasse_tussenstand.xlsx")
 data["datum"] = pd.to_datetime(data["datum"], format="%d/%m/%Y")
 data = data.sort_values("datum")
 
@@ -23,14 +23,12 @@ meanViolations = data["overtredingen"].mean()
 averageFile.write(str(round(meanViolations)))
 averageFile.close()
 
-
 #Informatievraag 3
 zwartBoekFile = open("../files/zwartboek.txt", "w", encoding="UTF-8")
 zwartBoekSorted = data.sort_values("overtredingen", ascending=False)
 zwartBoek = zwartBoekSorted.head(5)
 zwartBoekFile.write(bamboo.prettify(zwartBoek, type="zwartboek"))
 zwartBoekFile.close()
-
 
 #Informatievraag 4
 eregalerijFile = open("../files/eregalerij.txt", "w", encoding="UTF-8")
@@ -45,10 +43,5 @@ eregalerij = eregalerijSorted[filter]
 
 eregalerijFile.write(bamboo.prettify(eregalerij, type="eregalerij"))
 eregalerijFile.close()
-
-
-
-
-
 
 print("Done!")
