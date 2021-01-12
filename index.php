@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
     <meta charset="utf-8">
-    <title>Fair play in de VOORBEELD-DIVISIE</title>
+    <title>Fair play in Hockey Tweede Klasse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/normalize.css">
@@ -49,11 +49,9 @@
             <div class="row">
                 <div class="box">
                     <h2>Wedstrijden met minder dan 2 overtredingen (laatste veertien dagen):</h2>
-                    <pre>
-                        <?php
+                    <pre><?php
                             echo file_get_contents("files/eregalerij.txt") 
-                        ?>
-                    </pre>
+                        ?></pre>
                 </div>
             </div>
         </main>

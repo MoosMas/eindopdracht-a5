@@ -108,7 +108,12 @@ h1{
     font-size: 1.25rem;
     margin-top: 0;
 }
-
+.subtitle {
+   font-weight: 500;
+   font-style: italic;
+   font-size: 1.25rem;
+   margin-top: 0;
+}
 
 .row{
     display: flex;
@@ -132,7 +137,7 @@ h1{
 h2{
     font-family: Roboto, sans-serif;
     font-weight: 500;
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 p{
@@ -142,7 +147,7 @@ p{
 p.number{
     font-family: 'Roboto Mono';
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 pre{
