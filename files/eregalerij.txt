@@ -1,17 +1,4 @@
-      datum             team1                    team2 uitslag scheidsrechter
- 23-12-2020           Neer HC             Jaarsveld HC     4-0       Mathurin
- 23-12-2020    Waterloo Ducks        Harvestehuder THC     6-2      Totwiller
- 23-12-2020          UHC Eede             UHC Sinderen     6-4        Paillet
- 23-12-2020       UHC Hamburg         UHC Scherpenzeel     4-4           Smit
- 24-12-2020  UHC Scherpenzeel             Jaarsveld HC     3-0        Paillet
- 24-12-2020          Goor UHC           HC Oranje-Rood     3-6       Zijlmans
- 24-12-2020          UHC Eede    Winterswijk Miste UHC     0-6       Zijlmans
- 25-12-2020      Jaarsveld HC              UHC Leveroy     4-6        Zwijsen
- 25-12-2020       UHC Wijchen              UHC Leveroy     6-8       Mathurin
- 26-12-2020       UHC Hamburg           HC Garrelsweer     4-5       Zijlmans
- 26-12-2020    HC Oranje-Rood             UHC Sinderen     0-4      Totwiller
- 28-12-2020      UHC Sinderen        Harvestehuder THC     2-8        Zuidweg
- 28-12-2020           Neer HC    Winterswijk Miste UHC     1-6        Zuidweg
- 29-12-2020           Neer HC  HOC Gazellen-Combinatie     3-2      Bouthoorn
- 31-12-2020          UHC Eede  HOC Gazellen-Combinatie     0-0      Bouthoorn
- 02-01-2021    HC Oranje-Rood                 UHC Eede     2-8       Zijlmans
+      datum           team1                    team2 uitslag scheidsrechter
+ 29-12-2020         Neer HC  HOC Gazellen-Combinatie     3-2      Bouthoorn
+ 31-12-2020        UHC Eede  HOC Gazellen-Combinatie     0-0      Bouthoorn
+ 02-01-2021  HC Oranje-Rood                 UHC Eede     2-8       Zijlmans
