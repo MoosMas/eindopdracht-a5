@@ -32,14 +32,16 @@ zwartBoekFile.close()
 
 #Informatievraag 4
 eregalerijFile = open("../files/eregalerij.txt", "w", encoding="UTF-8")
-data["datum"] = pd.to_datetime(data["datum"], format="%d/%m/%Y")
 checkDays = 14
-date_check = datetime.now() - timedelta(days=14)
+date_check = datetime.now() - timedelta(days=checkDays)
+print(date_check)
 
 eregalerijSorted = data.sort_values("datum", ascending=True)
 
-filter = ((data["overtredingen"] < 2) & (data["datum"] > date_check))
-eregalerij = eregalerijSorted[filter]
+filter1 = (data["overtredingen"] < 2)
+data_filtered = data[filter1]
+filter2 = (data_filtered["datum"] > date_check)
+eregalerij = data_filtered[filter2]
 
 eregalerijFile.write(bamboo.prettify(eregalerij, type="eregalerij"))
 eregalerijFile.close()
